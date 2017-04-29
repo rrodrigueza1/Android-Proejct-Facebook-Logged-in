@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_view_from_phone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@id/image_view_from_phone"
+        android:layout_height="wrap_content"
+        android:text="File Name"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:id="@+id/tv_fileName"
+        android:textSize="18dp" />
+
+
+
+
+      
+
+</RelativeLayout>

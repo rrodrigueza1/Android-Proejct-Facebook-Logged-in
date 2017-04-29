@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyShareCam3.0</string>
+    <string name="facebook_app_id">1671437003162258</string>
+    <string name="fb_login_protocol_scheme">fb1671437003162258</string>
+</resources>

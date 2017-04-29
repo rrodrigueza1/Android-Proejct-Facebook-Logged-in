@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/single_item_image"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Message to Post: "
+        android:id="@+id/tv_prompt"
+        android:layout_below="@id/single_item_image" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_prompt"
+        android:id="@+id/message_text"
+        android:hint="Enter message before post here"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message_text"
+        android:id="@+id/upload_photo_button"
+        android:layout_alignParentLeft="true"
+        android:text="Post Picture"
+        android:textSize="18dp"
+        />
+    <com.facebook.share.widget.ShareButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/shareButton"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/message_text"
+        />
+</RelativeLayout>
